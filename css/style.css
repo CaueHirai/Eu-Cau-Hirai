@@ -1,0 +1,199 @@
+/* ------- Topo do site, a parte de navegação e tals ------- */
+body {
+    color: white;
+    text-align: center;
+    background-color: aliceblue;
+
+    }
+    .topo {
+    background-color: gray;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+      .topo li {
+        color: gray;
+      }
+      .topo ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+    a:visited {
+      color: rgb(192, 189, 189)
+    }
+    a:hover {
+      color: rgb(110, 101, 101)
+    }
+    a:active{
+      font-weight: bold;
+    }
+  .menu {
+    background-color: rgb(65, 122, 145);
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    
+  }
+    .menu li {
+      color: rgb(160, 184, 207);
+    }
+    .menu ul{
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      text-decoration: none;
+    }  
+.conta{
+  text-align: right;
+  margin-right: 5%;
+}
+
+/* ------- Estilos da barra de navegação do body ------- */
+
+.body-nav {
+  background-color: gray;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  }
+    .body-nav li {
+      color: gray;
+    }
+    .body-nav ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+/* Testeeeeeeeeeeeeeeeeeeeee*/
+
+.dp-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dp-menu ul {
+  background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+  display: inline;
+  position: relative;
+}
+
+.dp-menu ul li a {
+  color: var(--cor-primaria);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+  background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+  display: none;
+  left: 0;
+  position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+  display: block;
+}
+
+.dp-menu ul ul {
+  width: 150px
+}
+
+.dp-menu ul ul li a {
+  display: block;
+}
+
+/* ------- Estilos para a partida da semana, para fazer depois ------- */
+
+    .peao img{
+    height: 70px
+    }
+  .semana{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    justify-content:space-around;
+  }
+  .semana img{
+    width: 300px;
+  }
+  .semana h1{
+    font-size: 38px;
+    color: rgb(65, 122, 145);
+    text-align: left;
+  }
+  .semana h2{
+    color:rgb(54, 98, 116);
+    text-align: left;
+  }
+
+/* ------- Textos ------ */
+
+p {
+  font-size: 160%;
+  color:rgb(65, 122, 145);
+  text-align: justify;
+  margin-left: 10%;
+}
+
+h1 {
+  font-size: 300%;
+  color:rgb(53, 98, 116);
+  padding-top: 7%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+h2 {
+  font-size: 200%;
+  color:rgb(53, 98, 116);
+  padding-top: 3.5%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+h3 {
+  font-size: 150%;
+  color:rgb(53, 98, 116);
+  padding-top: 3.5%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+hr{
+  width: 80%;
+  color: rgb(110, 101, 101);
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+/* ------- Parte debaixo do código -------*/
+
+
+.conta{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.conta a{
+  color: rgb(53, 98, 116);
+  font-weight: bold;
+  font-size: 20px;
+}
+

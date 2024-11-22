@@ -1,0 +1,68 @@
+/* ------- Centro, texto e imagem ------- */
+
+.autobiografia {
+    display: flex;
+    flex-direction: row;
+  
+  }
+.autobiografia p{
+  font-size: 160%;
+  color:rgb(65, 122, 145);
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-top: 4%;
+  text-align: justify;
+}
+  .imagemautobiografia {
+    width: 100%;
+  }
+  
+/* ------- Contato, redes sociais -------*/
+
+  .contato div img{
+    width: 100%;
+    align-self: flex-end;
+  }
+  
+  .contato div a{
+    width: 20%;
+    align-self: flex-end;
+    margin: 0;
+    padding-right: 2%;
+
+  }
+  
+  .contato {
+    margin-top: 0px;
+    margin-right: 10%;
+    width: 40%;
+    padding-left: 7%;
+  }
+  
+  .contato div{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    padding-left: 10%;
+  }
+  
+  .direita {
+    display: flex;
+    flex-direction: column;
+    width: 160%;
+    padding-top: 15px;
+  }
+  
+  .baixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .texto {
+    background-color: rgb(65, 122, 145);
+    color: #a0b624;
+    padding: 12px;
+    border: 1px solid #d32626;
+    border-radius: 5px;
+  }
